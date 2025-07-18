@@ -1,36 +1,65 @@
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f7f7f7;
-    color: #444;
-    text-align: center;
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  background: linear-gradient(to bottom, #fffafc, #f0e6f6);
+  color: #333;
+  text-align: center;
 }
 .container {
-    padding: 40px 20px;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
 }
-h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+.title {
+  font-size: 2.8em;
+  margin-bottom: 20px;
 }
-.foto {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-    margin: 20px 0;
+.subtitle {
+  font-size: 1.5em;
+  margin-bottom: 20px;
 }
-.frase {
-    font-size: 1.2em;
-    margin: 20px 0;
-    color: #555;
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 2em;
+  margin: 30px 0;
+  animation: fadeIn 1.5s ease-in-out;
 }
-#contador {
-    font-size: 2em;
-    margin: 30px 0;
-    color: #d32f2f;
+.countdown div {
+  display: flex;
+  flex-direction: column;
+}
+.countdown span {
+  font-weight: bold;
+  color: #6a1b9a;
+}
+.countdown label {
+  font-size: 0.5em;
+  margin-top: 5px;
+  color: #888;
+}
+.photo-wrapper {
+  margin: 30px 0;
+}
+.photo {
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.quote {
+  font-style: italic;
+  font-size: 1.2em;
+  margin-top: 20px;
+  color: #555;
 }
 .aliancas {
-    width: 60px;
-    margin-top: 30px;
+  width: 60px;
+  margin-top: 40px;
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
 }
