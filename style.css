@@ -1,0 +1,36 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f7f7f7;
+    color: #444;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 40px 20px;
+}
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.foto {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.frase {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #555;
+}
+#contador {
+    font-size: 2em;
+    margin: 30px 0;
+    color: #d32f2f;
+}
+.aliancas {
+    width: 60px;
+    margin-top: 30px;
+}
